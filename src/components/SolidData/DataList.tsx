@@ -105,13 +105,13 @@ export const BookingStepsTexts = {
   secondText: "Book your next trip in 3 easy steps",
   listOfSteps: [
     {
-      text: "Choose Destination lorem ipsum dolor sit amet, consectetur adipiscing elit.Urna, tortor tempus.",
+      text: "Choose Destination. You can search your intended destination between our suggestions.",
     },
     {
-      text: "Make Payment lorem ipsum dolor sit amet, consectetur adipiscing elit.Uma, totor tempus.",
+      text: "Make Payment. It is really easy. We provide different types of peyments.",
     },
     {
-      text: "Reach Airport on Selected Date lorem ipsum dolor sit amet.consectetur adipiscing elit.Uma totor tempus.",
+      text: "Reach Airport on Selected. Do not forget to Check in at least 2 hours before your flight.",
     },
   ],
   cardOne: {
