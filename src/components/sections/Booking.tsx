@@ -46,7 +46,7 @@ const Booking = () => {
           </Text>
           <ul>
             {BookingStepsTexts.listOfSteps.map((step, index) => (
-              <List className="flex gap-4 items-center justify-start">
+              <List className="flex gap-4 items-center justify-start m-1">
                 <Text
                   as="p"
                   className={`text-white ${
@@ -94,6 +94,27 @@ const Booking = () => {
             </div>
             <Text as="h4" className="text-sm font-light text-color3">
               {BookingStepsTexts.cardOne.people}
+            </Text>
+          </Card>
+          <Card
+            cardClass="absolute flex right-8 bottom-10 lg:right-0 justify-start items-start bg-white px-4 py-3 border-2 border-color3/5 shadow-md rounded-xl"
+            imageAlt={BookingStepsTexts.cardOne.name}
+            imageSrc={bookingImage2}
+            imageWrapperClass="h-16 w-16 rounded-full overflow-hidden"
+            cover="object-cover object-top"
+            textWrapperClass="flex flex-col gap-2"
+          >
+            <Text as="p" className="text-xs font-light text-color3 mx-3">
+              {BookingStepsTexts.cardTwo.status}
+            </Text>
+            <Text as="p" className="text-base font-medium text-color3 mx-3">
+              {BookingStepsTexts.cardTwo.destination}
+            </Text>
+            <Text
+              as="p"
+              className="mx-3 text-xs font-light text-color1 pb-2 relative before:w-[40%] before:h-1 before:absolute before:bottom-0 before:left-0 before:bg-color2"
+            >
+              {BookingStepsTexts.cardTwo.completion}
             </Text>
           </Card>
           {/* object-cover It ensures that the image covers the entire container,

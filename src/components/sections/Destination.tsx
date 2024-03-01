@@ -120,7 +120,7 @@ const Destination = () => {
         {TopDestinationTexts.cards.map((card, index) => (
           <div key={index} className="md:px-6 px-3">
             <Card
-              cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group"
+              cardClass="overflow-hidden shadow-md rounded-lg cursor-pointer group p-4"
               imageAlt={card.country}
               imageSrc={renderCities(index)}
               imageWrapperClass="w-full h-[250px] overflow-hidden"
