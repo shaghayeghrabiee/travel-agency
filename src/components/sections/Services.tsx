@@ -41,7 +41,7 @@ const Services = () => {
       <div className="w-full h-auto grid lg:grid-cols-4 md:grid-cols-2 lg:gap-7  md:gap-10 gap-7 my-12 z-20 px-8 md:px-0">
         {ServiceTexts.cards.map((card, index) => (
           <Card
-            cardClass="w-full bg-white flex flex-col items-center justify-center py-6 cursor-pointer transition duration-300 hover:shadow-2xl px-5 rounded-xl"
+            cardClass="w-full bg-white flex flex-col items-center justify-center py-6 cursor-pointer transition duration-300 hover:shadow-2xl px-5 rounded-xl relative after:absolute after:-z-10 after:bg-color1 after:opacity-20 after:rounded-l-2xl after:rounded-r-2xl after:w-full after:h-full after:hover:-bottom-4 after:hover:-left-4 "
             imageWrapperClass="w-28 h-28 relative z-10 before:content-[''] before:absolute before:top-3 before:left-3 before:w-16 before:h-16 before:bg-color2/30 before:-z-10 before:rounded-tl-3xl before:rounded-br-3xl"
             cover="object-cover"
             imageAlt={card.firstText}
