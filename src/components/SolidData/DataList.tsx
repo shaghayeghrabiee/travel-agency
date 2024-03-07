@@ -155,7 +155,7 @@ export const TestimonialTexts = {
 
 export const NewsletterTexts = {
   firstText:
-    "Subscribe to get information, latest news and other interesting offers about Jadoo.",
+    "Subscribe to get information, latest news and other interesting offers about our Tours.",
   placeholderText: "Your email",
   buttonText: "Subscribe",
 };
@@ -167,27 +167,27 @@ export const FooterTexts = {
     links: [
       {
         name: "Destination",
-        url: "/",
+        url: "/destination",
       },
       {
         name: "Hotels",
-        url: "/",
+        url: "/Hotels",
       },
       {
         name: "Flights",
-        url: "/",
+        url: "/Flights",
       },
       {
         name: "Bookings",
-        url: "/",
+        url: "/Bookings",
       },
       {
         name: "Login",
-        url: "/",
+        url: "/Login",
       },
       {
         name: "Signup",
-        url: "/",
+        url: "/Signup",
       },
     ],
   },
