@@ -1,30 +1,30 @@
 export const NavLinks = [
   {
     name: "Destination",
-    url: "/",
+    url: "/destination",
   },
   {
     name: "Hotels",
-    url: "/",
+    url: "/Hotels",
   },
   {
     name: "Flights",
-    url: "/",
+    url: "/Flights",
   },
   {
     name: "Bookings",
-    url: "/",
+    url: "/Bookings",
   },
 ];
 
 export const NavButtons = [
   {
     name: "Login",
-    url: "/",
+    url: "/Login",
   },
   {
     name: "Signup",
-    url: "/",
+    url: "/SignUp",
   },
 ];
 

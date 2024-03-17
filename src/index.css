@@ -4,3 +4,17 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@media (max-width: 500px) { 
+    .signWidth{
+        width:fit-content;
+        padding-right:2.5rem ;
+        padding-left:2.5rem ;
+    }
+    .signUpButton{
+        padding-top:6px ;
+        padding-bottom:6px ;
+        padding-right:4px ;
+        padding-left:4px ;
+    }
+    }
